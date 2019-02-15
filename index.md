@@ -1,5 +1,5 @@
 ---
-title: My page
+title: TriTechTeal - Plan, code, build
 layout: default
 ---
 

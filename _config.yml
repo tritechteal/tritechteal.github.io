@@ -89,15 +89,6 @@ team-list:
     linkedin: "#"
     twitter: "#"
 
-
-  second:
-    name: Kay Garland
-    designation: Driver
-    image: "img/team/2.jpg"
-    facebook: "#"
-    linkedin: "#"
-    twitter: "#"
-
 team-quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
 
 # --- social links list --- #
@@ -131,6 +122,3 @@ exclude:
   - README.md
   - Vagrantfile
 
-
-plugins:
-  - jekyll-sitemap

@@ -21,7 +21,8 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/agency.css"  type="text/css" rel="stylesheet">
+
 
 </head>
 
@@ -48,6 +49,44 @@
 </nav>
 
 <!-- Header -->
+<div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">
+        ❅
+    </div>
+    <div class="snowflake">
+        ❆
+    </div>
+    <div class="snowflake">
+        ❅
+    </div>
+    <div class="snowflake">
+        ❆
+    </div>
+    <div class="snowflake">
+        ❅
+    </div>
+    <div class="snowflake">
+        ❆
+    </div>
+    <div class="snowflake">
+        ❅
+    </div>
+    <div class="snowflake">
+        ❆
+    </div>
+    <div class="snowflake">
+        ❅
+    </div>
+    <div class="snowflake">
+        ❆
+    </div>
+    <div class="snowflake">
+        ❅
+    </div>
+    <div class="snowflake">
+        ❆
+    </div>
+</div>
 <header class="masthead" style="background-image: url('{{ site.header-bg }}')">
     <div class="container">
         <div class="intro-text">
@@ -125,7 +164,7 @@
             {% for team in site.team-list %}
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+                    <img class="mx-auto rounded-circle" src="{{ team[1].image }}" alt="">
                     <h4>{{ team[0] }}</h4>
                     <p class="text-muted">{{ team[1].designation }}</p>
                     <ul class="list-inline social-buttons">
@@ -142,6 +181,11 @@
                         <li class="list-inline-item">
                             <a href="{{ team[1].linkedin }}">
                                 <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="{{ team[1].github }}">
+                                <i class="fab fa-github"></i>
                             </a>
                         </li>
                     </ul>
@@ -283,6 +327,7 @@
 
 <!-- Custom scripts for this template -->
 <script src="js/agency.min.js"></script>
+
 
 </body>
 

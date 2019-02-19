@@ -14,8 +14,8 @@ baseurl: ""
 name: Tri Tech Teal
 
 # Short description for site
-description: A virtual proof that name is awesome!
-header-bg: "../img/header-bg.jpg"
+description: We are awesome for build solutions!
+header-bg: "../img/hbg.jpg"
 
 # --- Navigation bar options --- #
 
@@ -27,10 +27,10 @@ navbar-links:
   contact: "#contact"
 
 lead-text:
-  intro: Welcome To Our Studio!
-  heading: IT'S NICE TO MEET YOU
-  button-text: TELL ME MORE
-  button-url: "#"
+  intro: Welcome To TriTechTeal!
+  heading: Need business solutions?
+  button-text: Get a Quote
+  button-url: "#contact"
   backgroud: "#"
 
 
@@ -38,18 +38,18 @@ lead-text:
 
 services:
   heading: Services
-  sub-heading: Lorem ipsum dolor sit amet consectetur.
+  sub-heading: Things we do the best.
 
 services-list:
-  E-Commerce:
-    icon: "fa-shopping-cart"
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-  S2:
-    icon: "fa-laptop"
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-  S3:
-    icon: "fa-lock"
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  Web Development & Design:
+    icon: "fa-globe"
+    description: We offer web development in Core PHP and it's frameworks e.g. Laravel, CodeIgnitor, and Wordpress. We can modify the existing website/business solutions. You are being interested then you are at right place,  get a <a href="#contact">Quote</a>.
+  Mobile Application Development:
+    icon: "fa-mobile-alt"
+    description: We have a vital skill in mobile application designing and development. We build, test and deploy the application. Our team good in Analytical, Creativity and Problem Solving. We focus on UI/UX, High Performance and Compatibility with the device.
+  Technical Support:
+    icon: "fa-headset"
+    description: We helps you in fixing bug, optimization in software, Continuous deployment for software releases, Cloud Computing (AWS and Heroku). We offering Architecting on AWS for your web and mobile application.
 
 
 # --- Portfolio list --- #
@@ -78,24 +78,44 @@ portfolio-list:
 
 team:
   heading: OUR AMAZING TEAM
-  sub-heading: Lorem ipsum dolor sit amet consectetur.
+  sub-heading: Alone we can do so <b>little</b>; together we can do so <b>much<b> – Helen Keller
 
 team-list:
-  first:
-    name: Kay Garland
-    designation: Driver
+  Asif Raza:
+    name: Asif Raza
+    designation: Project Manager / Founder
+    image: "img/team/1.png"
+    facebook: "https://www.facebook.com/raoasifraza1"
+    linkedin: "https://www.linkedin.com/in/raoasifraza/"
+    twitter: "https://twitter.com/raoasifraza1"
+    github: "https://github.com/raoasifraza11"
+
+  Rehman Masqood:
+    name: Rehman Masqood
+    designation: Mobile Application / Wordpress Developer
     image: "img/team/1.jpg"
     facebook: "#"
     linkedin: "#"
     twitter: "#"
+    github: "#"
 
-team-quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+  Arslan Ahmad:
+    name: Arslan Ahmad
+    designation: Web / Laravel / PHP Developer
+    image: "img/team/2.jpg"
+    facebook: "#"
+    linkedin: "#"
+    twitter: "#"
+    github: "#"
+
+
+team-quote: None of us, including me, ever do great things. But we can all do small things, with great love, and together we can do something wonderful." – Mother Teresa
 
 # --- social links list --- #
-facebook: "#"
-twitter: "#"
-linkedin: "#"
-github: "#"
+facebook: "https://www.facebook.com/tritechteal/"
+twitter: "https://twitter.com/tritechteal"
+linkedin: "https://www.linkedin.com/company/tritechteal"
+github: "https://github.com/orgs/tritecht/"
 
 
 # --- Web Statistics Section --- #

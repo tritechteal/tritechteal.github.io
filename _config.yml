@@ -15,7 +15,7 @@ name: Tri Tech Teal
 
 # Short description for site
 description: We are awesome for build solutions!
-header-bg: "../img/hbg.jpg"
+header-bg: "../img/header-bg.jpg"
 
 # --- Navigation bar options --- #
 
@@ -93,7 +93,7 @@ team-list:
   Rehman Masqood:
     name: Rehman Masqood
     designation: Mobile Application / Wordpress Developer
-    image: "#"
+    image: "img/team/2.jpg"
     facebook: "#"
     linkedin: "#"
     twitter: "#"
@@ -110,6 +110,12 @@ team-list:
 
 
 team-quote: None of us, including me, ever do great things. But we can all do small things, with great love, and together we can do something wonderful." – Mother Teresa
+
+
+# Contact Us
+contact:
+  heading: "Contact Us"
+  subheading: Office No. 23, 4th floor, St No. 03, Near Munch Hutt Hostel City, Islamabad.
 
 # --- social links list --- #
 facebook: "https://www.facebook.com/tritechteal/"

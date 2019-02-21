@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>{{ page.title  }} - hello</title>
+    <title>{{ page.title  }}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -165,7 +165,7 @@
             <div class="col-sm-4">
                 <div class="team-member">
                     <img class="mx-auto rounded-circle" src="{{ team[1].image }}" alt="{{ team[0] }}">
-                    <h4>{{ team[0] | team[1].image }}</h4>
+                    <h4>{{ team[0] }}</h4>
                     <p class="text-muted">{{ team[1].designation }}</p>
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item">
@@ -206,13 +206,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Contact Us</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading text-uppercase">{{ site.contact.heading }}</h2>
+                <h3 class="section-subheading text-muted">Address: {{ site.contact.subheading }}</h3>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <form id="contactForm" name="sentMessage" novalidate="novalidate" action="https://formspree.io/tritechteal@gmail.com" method="post">
+                <form id="contactForm" name="sentMessage" novalidate="novalidate" action="https://formspree.io/tritechteal@gmail.com" method="post" >
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">

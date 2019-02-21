@@ -52,64 +52,6 @@ services-list:
     description: We helps you in fixing bug, optimization in software, Continuous deployment for software releases, Cloud Computing (AWS and Heroku). We offering Architecting on AWS for your web and mobile application.
 
 
-# --- Portfolio list --- #
-## Thumbnail image size is 400x300
-## Full image size is 700x933
-
-portfolio:
-  heading: Portfolio
-  sub-heading: Lorem ipsum dolor sit amet consectetur.
-
-portfolio-list:
-  first-project:
-    title: This is first Project
-    thumbnail-image-src: "img/portfolio/01-thumbnail.jpg"
-    thumbnail-image-alt: "#"
-    full-image-src: "img/portfolio/01-full.jpg"
-    full-image-alt: "Full image alt"
-    description: Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
-    date: January 2017
-    client: Threads
-    category: Illustration
-
-
-# --- team list --- #
-# image size is: 500x500
-
-team:
-  heading: OUR AMAZING TEAM
-  sub-heading: Alone we can do so <b>little</b>; together we can do so <b>much<b> – Helen Keller
-
-team-list:
-  Asif Raza:
-    name: Asif Raza
-    designation: Project Manager / Founder
-    image: "img/team/1.png"
-    facebook: "https://www.facebook.com/raoasifraza1"
-    linkedin: "https://www.linkedin.com/in/raoasifraza/"
-    twitter: "https://twitter.com/raoasifraza1"
-    github: "https://github.com/raoasifraza11"
-
-  Rehman Masqood:
-    name: Rehman Masqood
-    designation: Mobile Application / Wordpress Developer
-    image: "img/team/2.jpg"
-    facebook: "#"
-    linkedin: "#"
-    twitter: "#"
-    github: "#"
-
-  Arslan Ahmad:
-    name: Arslan Ahmad
-    designation: Web / Laravel / PHP Developer
-    image: "img/team/3.jpg"
-    facebook: "#"
-    linkedin: "#"
-    twitter: "#"
-    github: "#"
-
-
-team-quote: None of us, including me, ever do great things. But we can all do small things, with great love, and together we can do something wonderful." – Mother Teresa
 
 
 # Contact Us

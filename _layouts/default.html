@@ -126,12 +126,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">{{ site.portfolio.heading }}</h2>
-                <h3 class="section-subheading text-muted">{{ site.portfolio.sub-heading }}</h3>
+                <h2 class="section-heading text-uppercase">{{ site.data.portfolio.heading }}</h2>
+                <h3 class="section-subheading text-muted">{{ site.data.portfolio.sub-heading }}</h3>
             </div>
         </div>
         <div class="row">
-            {% for project in site.portfolio-list %}
+            {% for project in site.data.portfolio.portfolio-list %}
             <div class="col-md-4 col-sm-6 portfolio-item">
                 <a class="portfolio-link" data-toggle="modal" href="#{{project[0]}}">
                     <div class="portfolio-hover">
@@ -156,12 +156,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">{{ site.team.heading }}</h2>
-                <h3 class="section-subheading text-muted">{{ site.team.sub-heading }}</h3>
+                <h2 class="section-heading text-uppercase">{{ site.data.team.heading }}</h2>
+                <h3 class="section-subheading text-muted">{{ site.data.team.sub-heading }}</h3>
             </div>
         </div>
         <div class="row">
-            {% for team in site.team-list %}
+            {% for team in site.data.team.team-list %}
             <div class="col-sm-4">
                 <div class="team-member">
                     <img class="mx-auto rounded-circle" src="{{ team[1].image }}" alt="{{ team[0] }}">
@@ -195,7 +195,7 @@
         </div>
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
-                <p class="large text-muted">{{ site.team-quote }}</p>
+                <p class="large text-muted">{{ site.data.team.team-quote }}</p>
             </div>
         </div>
     </div>
@@ -279,7 +279,7 @@
 <!-- Portfolio Modals -->
 
 <!-- Modal 1 -->
-{% for model in site.portfolio-list %}
+{% for model in site.data.portfolio.portfolio-list %}
 <div class="portfolio-modal modal fade" id="{{ model[0] }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">

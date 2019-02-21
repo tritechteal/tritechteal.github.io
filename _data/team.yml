@@ -1,0 +1,38 @@
+# --- Team list --- #
+
+
+heading: OUR AMAZING TEAM
+sub-heading: Alone we can do so <b>little</b>; together we can do so <b>much<b> – Helen Keller
+
+team-list:
+  Asif Raza:
+    name: Asif Raza
+    designation: Project Manager / Founder
+    image: "img/team/1.png"
+    facebook: "https://www.facebook.com/raoasifraza1"
+    linkedin: "https://www.linkedin.com/in/raoasifraza/"
+    twitter: "https://twitter.com/raoasifraza1"
+    github: "https://github.com/raoasifraza11"
+
+  Rehman Masqood:
+    name: Rehman Masqood
+    designation: Mobile Application / Wordpress Developer
+    image: "img/team/2.jpg"
+    facebook: "#"
+    linkedin: "#"
+    twitter: "#"
+    github: "#"
+
+  Arslan Ahmad:
+    name: Arslan Ahmad
+    designation: Web / Laravel / PHP Developer
+    image: "img/team/3.jpg"
+    facebook: "#"
+    linkedin: "#"
+    twitter: "#"
+    github: "#"
+
+
+
+team-quote: None of us, including me, ever do great things. But we can all do small things, with great love, and together we can do something wonderful." – Mother Teresa
+

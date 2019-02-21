@@ -93,7 +93,7 @@ team-list:
   Rehman Masqood:
     name: Rehman Masqood
     designation: Mobile Application / Wordpress Developer
-    image: "img/team/1.jpg"
+    image: "#"
     facebook: "#"
     linkedin: "#"
     twitter: "#"
@@ -102,7 +102,7 @@ team-list:
   Arslan Ahmad:
     name: Arslan Ahmad
     designation: Web / Laravel / PHP Developer
-    image: "img/team/2.jpg"
+    image: "img/team/3.jpg"
     facebook: "#"
     linkedin: "#"
     twitter: "#"

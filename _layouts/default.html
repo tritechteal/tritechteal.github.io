@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>{{ page.title }}</title>
+    <title>{{ page.title  }} - hello</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -164,8 +164,8 @@
             {% for team in site.team-list %}
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="{{ team[1].image }}" alt="">
-                    <h4>{{ team[0] }}</h4>
+                    <img class="mx-auto rounded-circle" src="{{ team[1].image }}" alt="{{ team[0] }}">
+                    <h4>{{ team[0] | team[1].image }}</h4>
                     <p class="text-muted">{{ team[1].designation }}</p>
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item">

@@ -825,3 +825,37 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   -webkit-animation-delay: 4s, 2.5s;
   animation-delay: 4s, 2.5s
 }
+
+.career {
+  color: #ffffff;
+  background-color: black;
+}
+
+.career a h3 {
+  font-weight: normal;
+  position: relative;
+  text-shadow: 0 -1px rgba(0,0,0,0.6);
+  font-size: 28px;
+  background: #355681;
+  background: rgba(53,86,129, 0.8);
+  border: 1px solid #fff;
+  padding: 5px 15px;
+  color: white;
+  text-align: center;
+  border-radius: 0 10px 0 10px;
+  box-shadow: inset 0 0 5px rgba(53,86,129, 0.5);
+  font-family: 'Muli', sans-serif;
+}
+
+.career a h3:hover {
+  background: #fed136;
+  text-decoration: none;
+  color: black;
+}
+.career a:hover {
+  text-decoration: none;
+}
+
+.modal a:hover {
+  text-decoration: none;
+}

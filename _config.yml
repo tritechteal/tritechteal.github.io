@@ -22,8 +22,9 @@ header-bg: "../img/header-bg.jpg"
 # List of links in the navigation bar
 navbar-links:
   services: "#services"
-  portfolio: "#portfolio"
+  #portfolio: "#portfolio"
   team: "#team"
+  career: "#career"
   contact: "#contact"
 
 lead-text:
@@ -50,8 +51,6 @@ services-list:
   Technical Support:
     icon: "fa-headset"
     description: We helps you in fixing bug, optimization in software, Continuous deployment for software releases, Cloud Computing (AWS and Heroku). We offering Architecting on AWS for your web and mobile application.
-
-
 
 
 # Contact Us

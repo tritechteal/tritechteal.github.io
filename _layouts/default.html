@@ -4,9 +4,10 @@
 <head>
 
     <meta charset="utf-8">
+    <meta name="description" content="We offer web development in Core PHP and it's frameworks e.g. Laravel, CodeIgnitor, and Wordpress.">
+    <meta name="keywords" content="PHP, Wordpress, Larvel, Codeignitor, SEO">
+    <meta name="author" content="TriTechTeal">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
     <title>{{ page.title  }}</title>
 
@@ -22,6 +23,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/agency.css"  type="text/css" rel="stylesheet">
+    <link href="css/hover-min.css"  type="text/css" rel="stylesheet" media="all">
 
 
 </head>
@@ -90,12 +92,13 @@
 <header class="masthead" style="background-image: url('{{ site.header-bg }}')">
     <div class="container">
         <div class="intro-text">
-            <div class="intro-lead-in">{{ site.lead-text.intro }}</div>
+            <h1 class="intro-lead-in">{{ site.lead-text.intro }}</h1>
             <div class="intro-heading text-uppercase">{{ site.lead-text.heading }}</div>
             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.lead-text.button-url }}">{{ site.lead-text.button-text }}</a>
         </div>
     </div>
 </header>
+
 
 <!-- Services -->
 <section id="services">
@@ -121,8 +124,30 @@
     </div>
 </section>
 
+<!-- Career Grid -->
+<section class="py-5 bg-light career" id="career" style="background-image: url('../img/header-bg.jpg');">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Career</h2>
+                <h3 class="section-subheading text-muted">We are open for...</h3>
+            </div>
+        </div>
+        <div class="row">
+            {% for career in site.data.careers.careers-list %}
+                <div class="col-md col-sm">
+                    <a href="#{{career[0]}}" class="hvr-bounce-in job" data-toggle="modal" data-value="{{career[0]}}">
+                        <h3>{{ career[1].title }}</h3>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
 <!-- Portfolio Grid -->
-<section class="bg-light" id="portfolio">
+{% if site.data.portfolio.portfolio-list > 0 %}
+<section  id="portfolio">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -150,6 +175,7 @@
         </div>
     </div>
 </section>
+{% endif %}
 
 <!-- Team -->
 <section id="team">
@@ -207,7 +233,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase">{{ site.contact.heading }}</h2>
-                <h3 class="section-subheading text-muted">Address: {{ site.contact.subheading }}</h3>
+                <h3 class="section-subheading text-muted">Address: {{ site.contact.subheading }} <br>Email: info@tritechteal.com</h3>
             </div>
         </div>
         <div class="row">
@@ -279,6 +305,7 @@
 <!-- Portfolio Modals -->
 
 <!-- Modal 1 -->
+{% if site.data.portfolio.portfolio-list > 0 %}
 {% for model in site.data.portfolio.portfolio-list %}
 <div class="portfolio-modal modal fade" id="{{ model[0] }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
@@ -305,6 +332,50 @@
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
                                 <i class="fas fa-times"></i>
                                 Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% endif %}
+{% for career in site.data.careers.careers-list %}
+<div class="portfolio-modal modal fade" id="{{career[0]}}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2 class="text-uppercase">{{ career[1].title }}</h2>
+
+                            <div class="row text-secondary">
+                                <div class="col-md">Job Type: <span class="text-info">Full Time</span></div>
+                                <div class="col-md">Experience Level: <span class="text-info">Beginner</span></div>
+                            </div>
+                            <div class="row text-secondary">
+                                <div class="col-md">Role: <span class="text-info">{{career[1].title}}</span></div>
+                                <div class="col-md">Last Date: <span id="last-date-{{career[0]}}" class="text-info">{{career[1].end-date}}</span></div>
+                            </div>
+                            <p class="item-intro text-muted">{{ career[1].job-description }}</p>
+                            <p id="countdown" class="text-danger"></p>
+
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times"></i>
+                                Close Project</button>
+                            <button class="btn btn-secondary" type="button">
+                                <a href="{{career[1].apply-link}}" target="_blank" class="text-white">
+                                    Apply Now
+                                </a>
+                            </button>
                         </div>
                     </div>
                 </div>

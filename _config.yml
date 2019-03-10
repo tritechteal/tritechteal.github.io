@@ -16,6 +16,7 @@ name: Tri Tech Teal
 # Short description for site
 description: We are awesome for build solutions!
 header-bg: "../img/header-bg.jpg"
+header-logo: "../img/logos/logo.png"
 
 # --- Navigation bar options --- #
 

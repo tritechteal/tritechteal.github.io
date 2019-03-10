@@ -6,27 +6,27 @@ sub-heading: We are open for careers ...
 careers-list:
   web-developer:
     title: Web Developer
-    end-date: 02/24/2019
+    end-date: 03/24/2019
     apply-link: "https://goo.gl/forms/xx7LmeTQZbGfQEBJ2"
-    job-type: Full Time
+    job-type: Full Time / Part Time
     experience-level: Beginner
     role: Web Developer
-    job-description: Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+    job-description: If you think you’re ready to jump into the challenging world of creative development at <b>TriTechTeal</b> We are looking for a Developer Intern to join the Technology team for the next months. This internship is open to anyone—student or otherwise—eager to gain the hands-on experience necessary to begin a career as a developer. !<p><h3 class="text-left">Must:</h3><ul class="text-muted text-left"><li>Interest in Web Development</li><li>Proven familiarity with web languages</li><li>Excellent interpersonal skills</li></ul><h3 class="text-left">Wants:</h3><ul class="text-muted text-left"><li>HTML</li><li>CSS</li><li>Javascript</li><li>PHP</li></ul><h3 class="text-left">Preferred:</h3><ul class="text-muted text-left"><li>Laravel</li><li>CodeIgniter</li><li>Mysql</li></ul></p>
 
   android-developer:
     title: Android Developer
-    end-date: 04/23/2019
+    end-date: 03/24/2019
     apply-link: "https://goo.gl/forms/xx7LmeTQZbGfQEBJ2"
     job-type: Full Time
     experience-level: Beginner
-    role: Web Developer
-    job-description: Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+    role: Android Developer
+    job-description: If you think you’re ready to jump into the challenging world of creative development at <b>TriTechTeal</b> We are looking for a Developer Intern to join the Technology team for the next months. This internship is open to anyone—student or otherwise—eager to gain the hands-on experience necessary to begin a career as a developer. !<p><h3 class="text-left">Must:</h3><ul class="text-muted text-left"><li>Interest in Android Development</li><li>Familiarity with android languages</li><li>Excellent interpersonal skills</li></ul><h3 class="text-left">Wants:</h3><ul class="text-muted text-left"><li>Java</li><li>Mysql</li></ul></p>
 
   content-writer:
     title: Content Writer
-    end-date: 04/23/2019
+    end-date: 03/23/2019
     apply-link: "https://goo.gl/forms/xx7LmeTQZbGfQEBJ2"
     job-type: Full Time
     experience-level: Beginner
     role: Web Developer
-    job-description: Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+    job-description: If you think you’re ready to jump into the challenging world of creative writing at <b>TriTechTeal</b> We are looking for a Content Writer Intern to join the Technology team for the next months. This internship is open to anyone—student or otherwise—eager to gain the hands-on experience necessary to begin a career as a developer. !<p><h3 class="text-left">Must:</h3><ul class="text-muted text-left"><li>Interest in Technology</li><li>Familiarity with writing skills</li><li>Excellent interpersonal skills</li></ul><h3 class="text-left"></p>

@@ -25,11 +25,36 @@
     <link href="css/agency.css"  type="text/css" rel="stylesheet">
     <link href="css/hover-min.css"  type="text/css" rel="stylesheet" media="all">
 
+    <!-- General -->
+    <meta property="og:title" content="{{ site.name }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ site.header-logo }}">
+    <meta property="og:url" content="{{ site.url }}">
+
     <!-- Social Setting -->
     <meta property="og:image" content="{{ site.header-logo }}">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="155">
     <meta property="og:image:height" content="133">
+
+    <meta name="twitter:title" content="{{ site.name }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image" content="{{ site.header-logo }}">
+    <meta name="twitter:card" content="{{ site.header-logo }}">
+
+    <!-- google site verification -->
+    <meta name="google-site-verification" content="sAZI27eDkH1UDAoRIDr2WGT3JJ2ykgmAH-vRiI58_bw" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136265111-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-136265111-1');
+    </script>
+
 
 
 </head>

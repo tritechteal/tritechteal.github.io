@@ -4,14 +4,14 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://username.github.io"
+url: "https://tritechteal.com"
 baseurl: ""
 
 
 # --- main page --- #
 
 # Name for site
-name: Tri Tech Teal
+name: TriTechTeal
 
 # Short description for site
 description: We are awesome for build solutions!

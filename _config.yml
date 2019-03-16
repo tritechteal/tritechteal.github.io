@@ -18,6 +18,10 @@ description: We are awesome for build solutions!
 header-bg: "../img/header-bg.jpg"
 header-logo: "../img/logos/logo.png"
 
+# Social Share
+social-logo: "https://tritechteal.com/img/logos/og-logo.png"
+fb-ogtype: 'fb:app_id'
+
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar

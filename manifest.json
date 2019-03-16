@@ -1,7 +1,7 @@
 {
   "short_name": "Tritechteal",
   "name": "TriTechTeal",
-  "start_url": "/index.html",
+  "start_url": "/",
   "display": "browser",
   "theme_color": "#3367D6"
 }

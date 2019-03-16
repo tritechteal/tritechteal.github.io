@@ -27,10 +27,10 @@ team-list:
     name: Arslan Ahmad
     designation: Web Developer / Laravel / PHP
     image: "img/team/3.jpg"
-    facebook: "#"
-    linkedin: "#"
+    facebook: "https://www.facebook.com/Ahamd456"
+    linkedin: "https://www.linkedin.com/in/arslanahmad786/"
     twitter: "#"
-    github: "#"
+    github: "https://github.com/Ahmadkhan12345566"
 
 
 

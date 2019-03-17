@@ -28,9 +28,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
     <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
     <link rel="manifest" href="/manifest.json">
+
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#da532c">
 
     <!-- cache control -->
     <meta http-equiv="Cache-control" content="public">
@@ -48,6 +49,7 @@
     <meta name="twitter:description" content="{{ site.description }}">
     <meta name="twitter:image" content="{{ site.social-logo }}">
     <meta name="twitter:card" content="{{ site.social-logo }}">
+
 
 
     <!-- google site verification -->
@@ -80,8 +82,6 @@
         gtag('config', 'UA-136265111-1');
     </script>
 
-
-
 </head>
 
 <body id="page-top">
@@ -90,7 +90,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
         <!--<a class="navbar-brand js-scroll-trigger" href="#page-top">{{ site.name }}</a>-->
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="lozad" data-src="{{ site.header-logo }}" alt="{{ site.description }}"></a>
+        <a class="navbar-brand js-scroll-trigger " href="#page-top"><img class="lozad top" data-src="{{ site.header-logo }}" alt="{{ site.description }}"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars"></i>
@@ -290,7 +290,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase">{{ site.contact.heading }}</h2>
-                <h3 class="section-subheading text-muted">Address: {{ site.contact.subheading }} <br>Email: info@tritechteal.com</h3>
+                <h3 class="section-subheading text-white">Address: {{ site.contact.subheading }} <br>Email: <span class="text-primary">info@tritechteal.com, &nbsp;&nbsp;</span>Contact: <span class="text-primary"> 0300 2528517</span></h3>
             </div>
         </div>
         <div class="row">
@@ -456,10 +456,11 @@
 
 <!-- Contact form JavaScript -->
 <script src="js/jqBootstrapValidation.js"></script>
-<script src="js/contact_me.js"></script>
 
 <!-- Custom scripts for this template -->
 <script src="js/agency.min.js"></script>
+<script src="js/main.js"></script>
+
 
 </body>
 </html>

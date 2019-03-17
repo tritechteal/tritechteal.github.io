@@ -7,6 +7,8 @@
     text-shadow: 0 0 5px #000;
 }
 
+
+
 @-webkit-keyframes snowflakes-fall {
     0% {
         top: -10%
@@ -57,13 +59,17 @@
     -webkit-animation-name: snowflakes-fall, snowflakes-shake;
     -webkit-animation-duration: 10s, 3s;
     -webkit-animation-timing-function: linear, ease-in-out;
-    -webkit-animation-iteration-count: infinite, infinite;
-    -webkit-animation-play-state: running, running;
+    -webkit-animation-iteration-count: 1, 1;
     animation-name: snowflakes-fall, snowflakes-shake;
     animation-duration: 10s, 3s;
     animation-timing-function: linear, ease-in-out;
-    animation-iteration-count: infinite, infinite;
-    animation-play-state: running, running
+    animation-iteration-count: 1, 1;
+}
+
+.snowflake:hover {
+    -webkit-animation-play-state: paused, paused;
+    animation-play-state: paused, paused;
+
 }
 
 .snowflake:nth-of-type(0) {
@@ -170,4 +176,14 @@
 
 .modal a:hover {
     text-decoration: none;
+}
+
+.fix-logo {
+    height: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand img {
+        height: 55px;
+    }
 }

@@ -7,7 +7,7 @@ sub-heading: Alone we can do so <b>little</b>; together we can do so <b>much<b> 
 team-list:
   Asif Raza:
     name: Asif Raza
-    designation: Project Manager / Founder
+    designation: CEO / Project Manager
     image: "img/team/1.jpg"
     facebook: "https://www.facebook.com/raoasifraza1"
     linkedin: "https://www.linkedin.com/in/raoasifraza/"
@@ -16,7 +16,7 @@ team-list:
 
   Rehman Maqsood:
     name: Rehman Maqsood
-    designation: Mobile Application
+    designation: Mobile Application Developer
     image: "img/team/2.jpg"
     facebook: "#"
     linkedin: "#"
@@ -25,7 +25,7 @@ team-list:
 
   Arslan Ahmad:
     name: Arslan Ahmad
-    designation: Web Developer / Laravel / PHP
+    designation: Web Application Developer
     image: "img/team/3.jpg"
     facebook: "https://www.facebook.com/Ahamd456"
     linkedin: "https://www.linkedin.com/in/arslanahmad786/"

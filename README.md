@@ -1,4 +1,4 @@
-# [tritechteal](http://tritechteal.com)
+# [Tritechteal Technologies](http://tritechteal.com)
 
 ## Usage
 
